@@ -17,4 +17,6 @@ public abstract class  Vehiculos {
     public double calcularDistancia (double velocidad,double tiempo,double constante){
     return (velocidad * tiempo* constante);
     }
+    //POLIMORFISMO  DINAMICO: METODO ABSTRACTO
+    public abstract void  transportar ();
 }
